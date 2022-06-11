@@ -44,9 +44,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PermissionService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RolService.cs" />
+    <Compile Include="UserService.cs" />
+    <Compile Include="ViewModels\CompoundPermissionViewModel.cs" />
+    <Compile Include="ViewModels\PermissionViewModel.cs" />
     <Compile Include="ViewModels\RolViewModel.cs" />
+    <Compile Include="ViewModels\SimplePermissionViewModel.cs" />
+    <Compile Include="ViewModels\UserViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

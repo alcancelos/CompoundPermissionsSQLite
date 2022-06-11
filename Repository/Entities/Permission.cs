@@ -7,13 +7,14 @@ using System.Threading.Tasks;
 
 namespace Repository.Entities
 {
-    public class Rol
+    public class Permission
     {
-        public int RolId { get; set; }
-        public string Description { get; set; }
         public int PermissionId { get; set; }
+        public string Description { get; set; }
 
-        [ForeignKey("PermissionId")]
-        public virtual Permission Permission { get; set; }
+        public string Type { get; set; }
+
+     
+
     }
 }

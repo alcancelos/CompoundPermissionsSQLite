@@ -8,6 +8,8 @@ namespace Domain.ViewModels
 {
     public class RolViewModel
     {
+        public int RolId { get; set; }
         public string Description { get; set; }
+        public CompoundPermissionViewModel Permission { get; set; } = new CompoundPermissionViewModel();
     }
 }
